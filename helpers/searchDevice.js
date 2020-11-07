@@ -18,3 +18,5 @@ function search() {
 }
 
 exports.search = search
+
+search()
