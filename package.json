@@ -1,0 +1,26 @@
+{
+  "name": "RTSP---CAM",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsaacDSC/RTSP---CAM.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IsaacDSC/RTSP---CAM/issues"
+  },
+  "homepage": "https://github.com/IsaacDSC/RTSP---CAM#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-onvif": "^0.1.7",
+    "node-rtsp-stream": "0.0.9",
+    "request": "^2.88.2"
+  }
+}
