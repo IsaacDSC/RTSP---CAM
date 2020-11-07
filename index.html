@@ -17,14 +17,18 @@
             display: block;
             margin-left: 10px;
             padding: 0px;
-            width: 400px;
+            width: 640px;
+            height: 325px;
         }
     </style>
 </head>
 
 <body>
     <h1>RTSP STREAMING NODE JS IP CAMERA </h1>
-    <div><canvas class="camera" id="videoCanvas" width="640" height="325"></canvas></div>
+    <div>
+        <canvas class="camera" id="videoCanvas" width="640" height="325">
+        </canvas>
+    </div>
 
     <script type="text/javascript" src="/js/jsmpeg.js"></script>
 
@@ -36,7 +40,7 @@
         var player = new jsmpeg(ws, {
             canvas: canvas,
             autoplay: true,
-            audio: false,
+            audio: true,
             loop: true
         });
     </script>
